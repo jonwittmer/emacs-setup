@@ -1,0 +1,41 @@
+ls
+rm *~
+ls
+conda activate tf
+ls
+cd ~/
+ls
+du
+du -h . | grep [0-9\.]\+G
+du -h . | grep [0-9\.]\+G
+du -h . | grep '[0-9\.]\+G'
+df
+df -h
+cd /workspace/research/machine_learning/
+ls
+cd ml_higher_order_optimization/
+ls
+cd simple_test/
+ls
+run simple_test.py 
+source ~/.bashrc
+top
+free -g
+watch nvidia-smi
+ls
+nvidia -smi
+nvidia-smi
+top
+cd ~/Programs/
+ls
+mkdir tf_support
+cd tf_support/
+wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/cuda-repo-ubuntu1804_10.1.243-1_amd64.debsudo apt-key adv --fetch-keys https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/7fa2af80.pubsudo dpkg -i cuda-repo-ubuntu1804_10.1.243-1_amd64.debsudo apt-get updatewget http://developer.download.nvidia.com/compute/machine-learning/repos/ubuntu1804/x86_64/nvidia-machine-learning-repo-ubuntu1804_1.0.0-1_amd64.debsudo apt install ./nvidia-machine-learning-repo-ubuntu1804_1.0.0-1_amd64.debsudo apt-get update
+ls
+sudo apt-get install --no-install-recommends \    cuda-10-1 \    libcudnn7=7.6.4.38-1+cuda10.1  \    libcudnn7-dev=7.6.4.38-1+cuda10.1
+sudo apt update
+sudo apt install libcudnn7
+cd results
+ls
+ls
+open image_at_epoch_0010.png &
